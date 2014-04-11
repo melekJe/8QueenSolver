@@ -146,7 +146,7 @@ canvas.onclick = function(e){
     return;
   }
 
-  ctx.dawImage(img,posX,posY,60,60);    
+  ctx.drawImage(img,posX,posY,60,60);    
 }
 
 // Exécution de la fonction
